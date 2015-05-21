@@ -16,3 +16,8 @@ def greet_person(person):
     a longer description. Note the triple quotes.
     """
     print 'hello', person
+
+def greet_people(people):
+    """Greet people """
+    for person in people:
+        greet_person(person)
